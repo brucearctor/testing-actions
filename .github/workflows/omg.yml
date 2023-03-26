@@ -4,6 +4,6 @@ jobs:
   octocat:
     runs-on: ubuntu-latest
     steps:
-    - uses: ethomson/mona-action@master
+    - uses: brucearctor/mona-action@master
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
